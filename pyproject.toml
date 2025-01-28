@@ -22,8 +22,8 @@ dev = [
 
 [project.scripts]
 brain-games = "brain_games.scripts.brain_games:main"
-brain-even = "brain_games.scripts.brain_even:even_or_not"
-brain-calc = "brain_games.scripts.brain_calc:calc"
-brain-gcd = "brain_games.scripts.brain_gcd:game_gcd"
-brain-progression = 'brain_games.scripts.brain_progression:brain_progression'
-brain-prime = 'brain_games.scripts.brain_prime:prime_or_not'
+brain-even = "brain_games.scripts.brain_even:main"
+brain-calc = "brain_games.scripts.brain_calc:main"
+brain-gcd = "brain_games.scripts.brain_gcd:main"
+brain-progression = 'brain_games.scripts.brain_progression:main'
+brain-prime = 'brain_games.scripts.brain_prime:main'
