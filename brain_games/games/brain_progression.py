@@ -27,4 +27,4 @@ def make_question_and_correct_answer():
 	progression = generate_progression(length, start, step)
 	correct_answer, progression = hide_element(progression)
 	question = ' '.join(map(str, progression))
-	return question, correct_answer
+	return question, str(correct_answer)

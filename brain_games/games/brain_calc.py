@@ -16,4 +16,4 @@ def make_question_and_correct_answer():
 	])
 	correct_answer = operation(operand_first, operand_second)
 	question = f"{operand_first} {operator} {operand_second}"
-	return question, correct_answer
+	return question, str(correct_answer)
