@@ -1,9 +1,10 @@
+from operator import add, mul, sub
 from random import choice, randint
-from operator import add, sub, mul
 
 DESCRIPTION = 'What is the result of the expression?'
 MIN_NUMBER = 1
 MAX_NUMBER = 20
+
 
 def make_question_and_correct_answer():
 	operand_first = randint(MIN_NUMBER, MAX_NUMBER)

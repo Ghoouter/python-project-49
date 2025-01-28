@@ -1,5 +1,4 @@
 from random import randint
-from tarfile import LENGTH_PREFIX
 
 DESCRIPTION = 'What number is missing in the progression?'
 MIN_LENGTH = 5

@@ -1,6 +1,5 @@
 import prompt
 
-
 MAX_ROUND = 3
 
 
@@ -17,8 +16,8 @@ def run_game(game_name):
 
 		if not (user_answer == correct_answer):
 			print(f" '{user_answer}' is wrong answer ;(. "
-			      f"Correct answer was '{correct_answer}'."
-			      f"Let's try again, {user_name}!")
+				f"Correct answer was '{correct_answer}'."
+				f"Let's try again, {user_name}!")
 			return
 		print("Correct!")
 
